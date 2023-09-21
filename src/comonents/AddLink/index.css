@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.addlink{
+    height: 680px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.link-form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    overflow-y: scroll;
+}
+.link-form p {
+    margin: 5px 0px;
+}
+.link-form button{
+    margin: 10px;
+    margin-left: 90px;
+}
+
+
+
+select{
+    height: 40px;
+    width: 91%;
+    border: rgba(0, 0, 0, 0.264) solid 2px;
+
+}
+input[type="url"]{
+    height: 35px;
+    width: 90%;
+    border: rgba(0, 0, 0, 0.264) solid 2px;
+}
+
+
+
+  
+  .addlink li span {
+    margin-right: 10px; 
+  }
+
+  .addlink li button{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.601);
+    border: none;
+    margin-left: 20px;
+
+  }
+
+button{
+    text-decoration:none;
+}
+
+  
+
